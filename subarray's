@@ -1,0 +1,27 @@
+
+//kadane's algorithm
+
+var subarr=[-2,-3,4,-1,-2,1,5,-3]
+
+var current_sum=0
+var sum=-100
+var start=0
+var end=0
+var s=0
+
+
+for(var i=0;i<8;i++){
+  
+  current_sum=current_sum+subarr[i]
+  if(current_sum>sum)
+  {
+    sum=current_sum
+    start=s
+    end=i
+  }
+  if(current_sum<0){
+    current_sum=0
+    s=i+1
+  }
+}
+console.log(sum)
