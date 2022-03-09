@@ -4,7 +4,7 @@
 var subarr=[-2,-3,4,-1,-2,1,5,-3]
 
 var current_sum=0
-var sum=-100
+var sum=-infinity
 var start=0
 var end=0
 var s=0
