@@ -25,3 +25,29 @@ for(var i=0;i<8;i++){
   }
 }
 console.log(sum)
+
+
+
+
+
+*********************************************************************************************
+Brute Force
+function masaiPalSubString(S){
+for(var i=0;i<S.length;i++){
+    for(var j=i+1;j<=S.length;j++){
+        var str=""
+        for(var k=i;k<j;k++){
+            str+=S[k]
+        }
+         console.log(str)
+    }
+   
+}
+}
+
+
+
+
+
+
+
